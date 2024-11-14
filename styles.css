@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #e30613; /* Red */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #e30613; /* Red */
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contact, footer .socials {
+    margin-bottom: 20px;
+}
+
+footer .socials a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Landing page styling */
+.landing {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.landing h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 18px;
+}
+
+/* Specials page styling */
+.specials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.specials h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.promotion {
+    background-color: #333;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.promotion h2 {
+    font-size: 24px;
+    color: #e30613; /* Red */
+}
+
+.promotion p {
+    font-size: 18px;
+}
